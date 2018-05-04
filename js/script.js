@@ -1,23 +1,23 @@
 // 1
-var a = 220,
-	b = 20;
+var a = 0;
+    b = 0;
 
 var value = (a * a) - (2 * a * b) - (b * b);
-	console.log ('Value is Equal:' + ' ' +  value)
-
-// 1.1
-var value = (a * a) - (2 * a * b) - (b * b);
-
+	document.write('Operation on variables: (a * a) - (2 * a * b) - (b * b)'+ '<br/>');
+	document.write('var a = ' + a + '<br/>');
+	document.write('var b = ' + b + '<br/>');
+	document.write ('Value is Equal:' + ' ' +  value+ '<br/>');
+	console.log('Value is Equal:' + ' ' +  value);
+	
 if (value > 0) {
-	console.log('wynik dodatni');
+	document.write('Positive result'+ '<br/>');
+	console.log('Positive result');	
 } 
 else if (value < 0) {
-  console.log('wynik ujemny');
+  document.write('Negative result'+ '<br/>');
+  console.log('Negative result');
 }
-
-// 2
-var  value = (a * a) - (2 * a * b) + (b * b);
-
-if(value == 0) {
-	console.log('wartość równa zero');
+else if(value == 0) {
+	document.write('The value is zero');
+	console.log('The value is zero');
 }
